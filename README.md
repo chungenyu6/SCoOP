@@ -1,17 +1,15 @@
 # SCoOP (Semantic Consistent Opinion Pooling)
 
-Official code for: "**SCoOP: Semantic Consistent Opinion Pooling for Uncertainty Quantification in Multiple Vision Language Model Systems**" \[[Website](https://chungenyu6.github.io/chung_en_johnny_yu_website/scoop)\] | \[[arXiv](https://arxiv.org/abs/2603.23853v1)\] 
+Official code for: "**SCoOP: Semantic Consistent Opinion Pooling for Uncertainty Quantification in Multiple Vision Language Model Systems**" 
+\[[Website](https://chungenyu6.github.io/chung_en_johnny_yu_website/scoop)\] \[[arXiv](https://arxiv.org/abs/2603.23853v1)\] 
 
 ## 📣 News
 
-- @2026.02.27: SCoOP has been accepted as a poster at the [ICLR 2026 Workshop - Agentic AI in the Wild: From Hallucinations to Reliable Autonomy](https://hallucination-reliable-agentic-ai.github.io/)
+- @2026.02.27: SCoOP has been accepted as a poster at the [ICLR 2026 Workshop - Agentic AI in the Wild: From Hallucinations to Reliable Autonomy](https://hallucination-reliable-agentic-ai.github.io/)!
 
 ## 🎯 Overview
 
 ![scoop-workflow](img/scoop-workflow.png)
-
-This repository contains the official implementation of the SCoOP pipeline for multiple vision-language models (VLMs) uncertainty aggregation. 
-
 
 ## 🛠️ Install
 
@@ -39,11 +37,10 @@ conda activate scoop
 ```
 
 ### Note
+- The code has tested on NVIDIA A40, B200.
 - VLMs are downloaded from HuggingFace and inferenced by [vLLM](https://vllm.ai/).
 - Benchmark datasets are loaded from HuggingFace datasets at runtime.
 - For gated models/datasets, login with HuggingFace first.
-- The code has tested on NVIDIA A40, B200.
-
 ```bash
 huggingface-cli login
 ```
@@ -132,7 +129,7 @@ SCoOP/
 
 This work was supported in part by the U.S. Military Academy (USMA) under Cooperative Agreement No. W911NF23-2-0108. The views and conclusions expressed in this paper are those of the authors and do not reflect the official policy or position of the U.S. Military Academy, U.S. Army, U.S. Department of Defense, or U.S. Government.
 
-Also, we are grateful to prior works:
+Also, we are grateful to prior works providing code foundations:
 - [Semantic Uncertainty](https://arxiv.org/abs/2302.09664)
 - [VL-Uncertainty](https://vl-uncertainty.github.io/)
 
