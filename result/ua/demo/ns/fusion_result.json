@@ -1,0 +1,356 @@
+{
+    "source_summary": {
+        "total_samples_in_file": 48,
+        "total_used": 48,
+        "total_skipped": 0,
+        "log_paths": [
+            "result/ua/demo/log1.json",
+            "result/ua/demo/log2.json"
+        ],
+        "epsilon": 1e-06
+    },
+    "metrics": {
+        "fusion_accuracy": 68.75,
+        "fusion_auroc": 0.8464646464646465,
+        "fusion_aurac": 0.8805448135417456
+    },
+    "per_sample": [
+        {
+            "sample_idx": 1,
+            "label": "1",
+            "fused_ans": "1",
+            "fusion_correct": true,
+            "fused_entropy": 0.0
+        },
+        {
+            "sample_idx": 2,
+            "label": "1",
+            "fused_ans": "3",
+            "fusion_correct": false,
+            "fused_entropy": 1.3609640474436813
+        },
+        {
+            "sample_idx": 5,
+            "label": "1",
+            "fused_ans": "1",
+            "fusion_correct": true,
+            "fused_entropy": 0.4689955935892812
+        },
+        {
+            "sample_idx": 9,
+            "label": "1",
+            "fused_ans": "1",
+            "fusion_correct": true,
+            "fused_entropy": 1.6854752972273346
+        },
+        {
+            "sample_idx": 10,
+            "label": "2",
+            "fused_ans": "2",
+            "fusion_correct": true,
+            "fused_entropy": 0.0
+        },
+        {
+            "sample_idx": 13,
+            "label": "2",
+            "fused_ans": "2",
+            "fusion_correct": true,
+            "fused_entropy": 0.9709505944546686
+        },
+        {
+            "sample_idx": 14,
+            "label": "3",
+            "fused_ans": "3",
+            "fusion_correct": true,
+            "fused_entropy": 0.0
+        },
+        {
+            "sample_idx": 15,
+            "label": "1",
+            "fused_ans": "1",
+            "fusion_correct": true,
+            "fused_entropy": 0.0
+        },
+        {
+            "sample_idx": 16,
+            "label": "0",
+            "fused_ans": "0",
+            "fusion_correct": true,
+            "fused_entropy": 1.3609640474436813
+        },
+        {
+            "sample_idx": 17,
+            "label": "1",
+            "fused_ans": "1",
+            "fusion_correct": true,
+            "fused_entropy": 1.3609640474436813
+        },
+        {
+            "sample_idx": 18,
+            "label": "0",
+            "fused_ans": "0",
+            "fusion_correct": true,
+            "fused_entropy": 0.0
+        },
+        {
+            "sample_idx": 19,
+            "label": "2",
+            "fused_ans": "2",
+            "fusion_correct": true,
+            "fused_entropy": 0.0
+        },
+        {
+            "sample_idx": 21,
+            "label": "0",
+            "fused_ans": "-1",
+            "fusion_correct": false,
+            "fused_entropy": 1.3609640474436813
+        },
+        {
+            "sample_idx": 23,
+            "label": "3",
+            "fused_ans": "3",
+            "fusion_correct": true,
+            "fused_entropy": 0.0
+        },
+        {
+            "sample_idx": 24,
+            "label": "3",
+            "fused_ans": "3",
+            "fusion_correct": true,
+            "fused_entropy": 0.0
+        },
+        {
+            "sample_idx": 29,
+            "label": "3",
+            "fused_ans": "3",
+            "fusion_correct": true,
+            "fused_entropy": 1.295461844238322
+        },
+        {
+            "sample_idx": 34,
+            "label": "1",
+            "fused_ans": "0",
+            "fusion_correct": false,
+            "fused_entropy": 0.8812908992306927
+        },
+        {
+            "sample_idx": 35,
+            "label": "1",
+            "fused_ans": "0",
+            "fusion_correct": false,
+            "fused_entropy": 0.0
+        },
+        {
+            "sample_idx": 36,
+            "label": "1",
+            "fused_ans": "1",
+            "fusion_correct": true,
+            "fused_entropy": 0.0
+        },
+        {
+            "sample_idx": 39,
+            "label": "0",
+            "fused_ans": "1",
+            "fusion_correct": false,
+            "fused_entropy": 0.9709505944546686
+        },
+        {
+            "sample_idx": 42,
+            "label": "1",
+            "fused_ans": "1",
+            "fusion_correct": true,
+            "fused_entropy": 0.0
+        },
+        {
+            "sample_idx": 43,
+            "label": "1",
+            "fused_ans": "1",
+            "fusion_correct": true,
+            "fused_entropy": 0.0
+        },
+        {
+            "sample_idx": 45,
+            "label": "0",
+            "fused_ans": "0",
+            "fusion_correct": true,
+            "fused_entropy": 0.0
+        },
+        {
+            "sample_idx": 49,
+            "label": "0",
+            "fused_ans": "1",
+            "fusion_correct": false,
+            "fused_entropy": 0.9709505944546686
+        },
+        {
+            "sample_idx": 50,
+            "label": "3",
+            "fused_ans": "1",
+            "fusion_correct": false,
+            "fused_entropy": 1.360964047443681
+        },
+        {
+            "sample_idx": 55,
+            "label": "2",
+            "fused_ans": "2",
+            "fusion_correct": true,
+            "fused_entropy": 0.4689955935892812
+        },
+        {
+            "sample_idx": 56,
+            "label": "0",
+            "fused_ans": "1",
+            "fusion_correct": false,
+            "fused_entropy": 0.7219280948873623
+        },
+        {
+            "sample_idx": 59,
+            "label": "0",
+            "fused_ans": "0",
+            "fusion_correct": true,
+            "fused_entropy": 0.0
+        },
+        {
+            "sample_idx": 63,
+            "label": "0",
+            "fused_ans": "2",
+            "fusion_correct": false,
+            "fused_entropy": 1.295461844238322
+        },
+        {
+            "sample_idx": 64,
+            "label": "1",
+            "fused_ans": "1",
+            "fusion_correct": true,
+            "fused_entropy": 0.0
+        },
+        {
+            "sample_idx": 65,
+            "label": "0",
+            "fused_ans": "2",
+            "fusion_correct": false,
+            "fused_entropy": 0.4689955935892812
+        },
+        {
+            "sample_idx": 67,
+            "label": "2",
+            "fused_ans": "2",
+            "fusion_correct": true,
+            "fused_entropy": 0.0
+        },
+        {
+            "sample_idx": 69,
+            "label": "2",
+            "fused_ans": "2",
+            "fusion_correct": true,
+            "fused_entropy": 0.0
+        },
+        {
+            "sample_idx": 70,
+            "label": "1",
+            "fused_ans": "1",
+            "fusion_correct": true,
+            "fused_entropy": 0.0
+        },
+        {
+            "sample_idx": 73,
+            "label": "0",
+            "fused_ans": "0",
+            "fusion_correct": true,
+            "fused_entropy": 0.0
+        },
+        {
+            "sample_idx": 75,
+            "label": "2",
+            "fused_ans": "2",
+            "fusion_correct": true,
+            "fused_entropy": 0.0
+        },
+        {
+            "sample_idx": 76,
+            "label": "0",
+            "fused_ans": "0",
+            "fusion_correct": true,
+            "fused_entropy": 0.0
+        },
+        {
+            "sample_idx": 78,
+            "label": "1",
+            "fused_ans": "1",
+            "fusion_correct": true,
+            "fused_entropy": 0.0
+        },
+        {
+            "sample_idx": 79,
+            "label": "2",
+            "fused_ans": "0",
+            "fusion_correct": false,
+            "fused_entropy": 1.8464393446710154
+        },
+        {
+            "sample_idx": 80,
+            "label": "1",
+            "fused_ans": "1",
+            "fusion_correct": true,
+            "fused_entropy": 0.4689955935892812
+        },
+        {
+            "sample_idx": 84,
+            "label": "1",
+            "fused_ans": "1",
+            "fusion_correct": true,
+            "fused_entropy": 0.7219280948873623
+        },
+        {
+            "sample_idx": 85,
+            "label": "0",
+            "fused_ans": "0",
+            "fusion_correct": true,
+            "fused_entropy": 0.8812908992306927
+        },
+        {
+            "sample_idx": 87,
+            "label": "3",
+            "fused_ans": "1",
+            "fusion_correct": false,
+            "fused_entropy": 1.7609640474436812
+        },
+        {
+            "sample_idx": 88,
+            "label": "1",
+            "fused_ans": "2",
+            "fusion_correct": false,
+            "fused_entropy": 1.1567796494470395
+        },
+        {
+            "sample_idx": 90,
+            "label": "1",
+            "fused_ans": "0",
+            "fusion_correct": false,
+            "fused_entropy": 0.9709505944546686
+        },
+        {
+            "sample_idx": 92,
+            "label": "1",
+            "fused_ans": "1",
+            "fusion_correct": true,
+            "fused_entropy": 0.4689955935892812
+        },
+        {
+            "sample_idx": 94,
+            "label": "1",
+            "fused_ans": "2",
+            "fusion_correct": false,
+            "fused_entropy": 0.9219280948873623
+        },
+        {
+            "sample_idx": 97,
+            "label": "0",
+            "fused_ans": "0",
+            "fusion_correct": true,
+            "fused_entropy": 0.0
+        }
+    ],
+    "skipped_samples": []
+}

@@ -1,0 +1,15 @@
+accelerate
+datasets
+matplotlib
+numpy
+openai
+pillow
+protobuf
+scikit-learn
+sentencepiece
+timm
+torch
+torchvision
+tqdm
+transformers
+vllm
